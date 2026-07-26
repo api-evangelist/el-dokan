@@ -1,7 +1,26 @@
 aid: el-dokan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/el-dokan.png
 name: El-Dokan
-description: El-Dokan is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: El-Dokan (El Dokan Software) is a Cairo, Egypt-based enterprise eCommerce software
+  company founded in 2019 that provides an API-first, headless and composable commerce platform for
+  the MENA region. Its 300+ REST API endpoints and developer tools let brands and retailers make any
+  digital experience shoppable across web, mobile apps, POS, and multi-vendor marketplaces, supporting
+  B2C, D2C, B2B, and marketplace models with 100+ payment, shipping, SMS, and ERP integrations and MENA
+  localization. Customers include Procter & Gamble, Misr Pharmacies, Mobily, Zahran, Switch Plus, and
+  Appetito. El-Dokan raised a $550,000 pre-seed round in 2022 backed by Flat6Labs, EFG EV, 500 Global,
+  and Hala Ventures. Public API documentation (data model, getting started, and API reference) is gated
+  behind a get-access signup.
 url: https://raw.githubusercontent.com/api-evangelist/el-dokan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- eCommerce
+- Headless Commerce
+- Composable Commerce
+- RetailTech
+- API-First
+- SaaS
+- Multi-Vendor Marketplace
+- MENA
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DeveloperPortal
+  url: https://el-dokan.com/developers/
+- type: Documentation
+  url: https://el-dokan.com/developers/
+- type: Blog
+  url: https://el-dokan.com/news/
+- type: SignUp
+  url: https://el-dokan.com/get-access/
+- type: Support
+  url: https://el-dokan.com/contact/
+- type: PrivacyPolicy
+  url: https://el-dokan.com/privacy-policy/
+- type: DomainSecurity
+  url: security/el-dokan-domain-security.yml
 - type: Website
   url: https://el-dokan.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
