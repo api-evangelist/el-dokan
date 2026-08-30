@@ -6,16 +6,16 @@
       "feed_url": "https://el-dokan.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
     },
     {
       "source": "https://el-dokan.com/developers/",
-      "feed_url": "https://el-dokan.com/feed/",
+      "feed_url": "https://el-dokan.com/developers/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-08-22T20:20:02Z"
+  "fetched": "2026-08-30T22:33:40Z"
 }
